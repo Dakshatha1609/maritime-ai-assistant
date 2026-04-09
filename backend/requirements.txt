@@ -1,0 +1,17 @@
+--extra-index-url https://download.pytorch.org/whl/cpu
+
+fastapi
+uvicorn
+pydantic
+neo4j
+spacy
+rank-bm25
+sentence-transformers
+transformers
+torch==2.10.0+cpu
+langchain
+langchain-community
+faiss-cpu
+python-multipart
+
+https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.8.0/en_core_web_sm-3.8.0-py3-none-any.whl
