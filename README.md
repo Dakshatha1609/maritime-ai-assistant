@@ -68,6 +68,7 @@ This hybrid design improves:
 ## 📁 Project Structure
 
 The repository is organized to separate backend processing, frontend interface, and data handling:
+```bash
 maritime-ai-assistant/
 ├── backend/
 │ ├── main.py # FastAPI backend with API endpoints
@@ -86,6 +87,7 @@ maritime-ai-assistant/
 ├── data/ # Maritime PDFs and vector index
 ├── notebooks/ # Experiments and evaluations
 └── README.md # Project documentation
+```
 
 
 The backend handles retrieval, reranking, and response generation, while the frontend enables interactive querying and knowledge graph visualization.  
