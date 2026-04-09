@@ -50,18 +50,6 @@ It combines:
 
 ---
 
-## ⚙️ System Flow
-
-1. User query input  
-2. Query preprocessing & expansion  
-3. Hybrid retrieval (vector + keyword search)  
-4. Reranking and filtering  
-5. Context construction  
-6. LLM-based response generation  
-7. Knowledge graph exploration  
-
----
-
 ## 🔍 Retrieval System
 
 The retrieval pipeline combines:
@@ -74,6 +62,50 @@ This hybrid design improves:
 - Top-k retrieval accuracy  
 - Context relevance  
 - Response grounding  
+
+---
+
+## 📁 Project Structure
+
+The repository is organized to separate backend processing, frontend interface, and data handling:
+maritime-ai-assistant/
+├── backend/
+│ ├── main.py # FastAPI backend with API endpoints
+│ ├── rag_pipeline.py # Core RAG pipeline (retrieval + generation)
+│ ├── graph_builder.py # Builds Neo4j knowledge graph
+│ ├── graph_retrieval.py # Graph-based querying logic
+│ ├── build_index.py # PDF processing and FAISS index creation
+│ └── requirements.txt # Backend dependencies
+│
+├── frontend/
+│ ├── app/ # Next.js pages (chat, graph, auth)
+│ ├── components/ # UI components (Chat, Graph, Sidebar)
+│ ├── public/ # Static assets
+│ └── package.json # Frontend dependencies
+│
+├── data/ # Maritime PDFs and vector index
+├── notebooks/ # Experiments and evaluations
+└── README.md # Project documentation
+
+
+The backend handles retrieval, reranking, and response generation, while the frontend enables interactive querying and knowledge graph visualization.  
+This modular structure ensures scalability, maintainability, and clear separation of concerns.
+
+## ⚙️ SYSTEM EXECUTION WORKFLOW
+
+The execution workflow of Maritime AI Assistant consists of the following steps:
+1.	The user enters a query through the frontend interface
+2.	The query is sent to the FastAPI backend
+3.	The query is processed and cleaned
+4.	The FAISS vector database retrieves relevant document chunks
+5.	Filtering removes irrelevant or noisy content
+6.	A cross-encoder reranks the retrieved results
+7.	Top-K contexts are passed to the LLaMA 3.1 model
+8.	The model generates a final response
+9.	The response and supporting context are displayed to the user
+10.	Optionally, the user can explore related entities using the knowledge graph
+
+This workflow ensures efficient retrieval, accurate response generation, and interactive exploration of maritime knowledge.
 
 ---
 
@@ -122,10 +154,15 @@ This hybrid design improves:
 
 ## ⚡ API Design
 
-- `/chat` → query processing + response generation  
-- `/graph` → knowledge graph visualization  
-- `/node-info` → entity details  
-- `/stats` → system metrics  
+The system exposes REST endpoints using FastAPI for real-time interaction:
+
+- **POST /chat** → Processes user queries and returns context-grounded answers  
+- **GET /graph** → Retrieves knowledge graph data for entity relationships  
+- **GET /node-info** → Provides detailed information about selected entities  
+
+These APIs enable seamless communication between the frontend and backend, supporting interactive querying and structured exploration of maritime knowledge.
+
+Supports real-time query processing with hybrid retrieval and LLM-based response generation.
 
 ---
 
