@@ -105,20 +105,20 @@ This hybrid design improves:
 <img width="1919" height="891" alt="Screenshot 2026-03-25 133509" src="https://github.com/user-attachments/assets/94b5ac40-f0fa-4e6e-aa60-69da8f29b590" />
 
 ### Authentication  Register Page
-![Authentication  Register Page](<img width="1918" height="891" alt="Screenshot 2026-03-25 133548" src="https://github.com/user-attachments/assets/482fccc1-9c92-4999-999e-f0a654e2086a" />)
+<img width="1918" height="891" alt="Screenshot 2026-03-25 133548" src="https://github.com/user-attachments/assets/482fccc1-9c92-4999-999e-f0a654e2086a" />
 
 ### Authentication Login Page
-![Authentication Login Page](<img width="1919" height="893" alt="Screenshot 2026-03-25 133609" src="https://github.com/user-attachments/assets/527c6f83-af1c-4cf7-ae9d-e1d20fce9929" />)
+<img width="1919" height="893" alt="Screenshot 2026-03-25 133609" src="https://github.com/user-attachments/assets/527c6f83-af1c-4cf7-ae9d-e1d20fce9929" />
 
 ### Chat Assitant Pages
-![Chat Assitant Page 1](<img width="1917" height="890" alt="Screenshot 2026-03-24 174317" src="https://github.com/user-attachments/assets/080e630c-9cef-4ca3-8231-9acd5c790401" />)
+<img width="1917" height="890" alt="Screenshot 2026-03-24 174317" src="https://github.com/user-attachments/assets/080e630c-9cef-4ca3-8231-9acd5c790401" />
 
-![Chat Assitant Page 2](<img width="1919" height="962" alt="Screenshot 2026-03-24 174401" src="https://github.com/user-attachments/assets/82de70f1-4914-4c20-9171-10bfdfd9afc6" />)
+<img width="1919" height="962" alt="Screenshot 2026-03-24 174401" src="https://github.com/user-attachments/assets/82de70f1-4914-4c20-9171-10bfdfd9afc6" />
 
 ### Knowledge Graph Pages
-![Knowledge Graph Page 1](<img width="1915" height="881" alt="Screenshot 2026-03-27 002415" src="https://github.com/user-attachments/assets/2ab23717-2e42-43f4-87a9-2e4a27ffcf90" />)
+<img width="1915" height="881" alt="Screenshot 2026-03-27 002415" src="https://github.com/user-attachments/assets/2ab23717-2e42-43f4-87a9-2e4a27ffcf90" />
 
-![Knowledge Graph Page 2](<img width="1919" height="888" alt="Screenshot 2026-03-24 174528" src="https://github.com/user-attachments/assets/ea98ba5c-0749-461c-b478-f24b624f5bc5" />)
+<img width="1919" height="888" alt="Screenshot 2026-03-24 174528" src="https://github.com/user-attachments/assets/ea98ba5c-0749-461c-b478-f24b624f5bc5" />
 
 ## ⚡ API Design
 
