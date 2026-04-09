@@ -102,7 +102,7 @@ This hybrid design improves:
 ## 📸 Demo
 
 ### Landing Page
-![Landing Page] (<img width="1919" height="891" alt="Screenshot 2026-03-25 133509" src="https://github.com/user-attachments/assets/94b5ac40-f0fa-4e6e-aa60-69da8f29b590" />)
+![Landing Page] <img width="1919" height="891" alt="Screenshot 2026-03-25 133509" src="https://github.com/user-attachments/assets/94b5ac40-f0fa-4e6e-aa60-69da8f29b590" />
 
 ### Authentication  Register Page
 ![Authentication  Register Page](<img width="1918" height="891" alt="Screenshot 2026-03-25 133548" src="https://github.com/user-attachments/assets/482fccc1-9c92-4999-999e-f0a654e2086a" />)
