@@ -4,7 +4,7 @@ An intelligent system for semantic retrieval and context-aware question answerin
 
 ---
 
-## 🚀 Overview
+## Overview
 
 The Maritime AI Assistant addresses the challenge of navigating dense maritime regulations by combining **retrieval-driven systems**, **language models**, and **knowledge graphs**.
 
@@ -15,7 +15,7 @@ Instead of static document search, it enables:
 
 ---
 
-## 🎯 Problem
+## Problem
 
 Maritime documentation is:
 - Highly fragmented across PDFs and manuals  
@@ -29,7 +29,7 @@ Traditional search systems fail to provide:
 
 ---
 
-## 💡 Solution
+## Solution
 
 This system implements a **Retrieval-Augmented Generation (RAG)** pipeline with hybrid retrieval and graph-based exploration.
 
@@ -40,7 +40,7 @@ It combines:
 
 ---
 
-## 🧠 Key Capabilities
+## Key Capabilities
 
 - Hybrid Retrieval (FAISS + BM25 + reranking)  
 - Context-grounded answer generation (LLaMA via Groq API)  
@@ -50,7 +50,7 @@ It combines:
 
 ---
 
-## 🔍 Retrieval System
+## Retrieval System
 
 The retrieval pipeline combines:
 
@@ -65,7 +65,7 @@ This hybrid design improves:
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 The repository is organized to separate backend processing, frontend interface, and data handling:
 ```bash
@@ -93,7 +93,7 @@ maritime-ai-assistant/
 The backend handles retrieval, reranking, and response generation, while the frontend enables interactive querying and knowledge graph visualization.  
 This modular structure ensures scalability, maintainability, and clear separation of concerns.
 
-## ⚙️ SYSTEM EXECUTION WORKFLOW
+## SYSTEM EXECUTION WORKFLOW
 
 The execution workflow of Maritime AI Assistant consists of the following steps:
 1.	The user enters a query through the frontend interface
@@ -111,7 +111,7 @@ This workflow ensures efficient retrieval, accurate response generation, and int
 
 ---
 
-## 📊 Dataset
+## Dataset
 
 - 40+ maritime regulatory PDFs  
 - Includes:
@@ -121,7 +121,7 @@ This workflow ensures efficient retrieval, accurate response generation, and int
 
 ---
 
-## 🧩 Tech Stack
+## Tech Stack
 
 - Python  
 - FastAPI  
@@ -133,7 +133,7 @@ This workflow ensures efficient retrieval, accurate response generation, and int
 
 ---
 
-## 📸 Demo
+## Demo
 
 ### Landing Page
 <img width="1919" height="891" alt="Screenshot 2026-03-25 133509" src="https://github.com/user-attachments/assets/94b5ac40-f0fa-4e6e-aa60-69da8f29b590" />
@@ -154,7 +154,7 @@ This workflow ensures efficient retrieval, accurate response generation, and int
 
 <img width="1919" height="888" alt="Screenshot 2026-03-24 174528" src="https://github.com/user-attachments/assets/ea98ba5c-0749-461c-b478-f24b624f5bc5" />
 
-## ⚡ API Design
+## API Design
 
 The system exposes REST endpoints using FastAPI for real-time interaction:
 
@@ -168,7 +168,7 @@ Supports real-time query processing with hybrid retrieval and LLM-based response
 
 ---
 
-## 📈 Highlights
+## Highlights
 
 - Improves retrieval relevance using hybrid search  
 - Enables semantic search over large document collections  
@@ -176,7 +176,7 @@ Supports real-time query processing with hybrid retrieval and LLM-based response
 
 ---
 
-## 🚧 Limitations
+## Limitations
 
 - Limited reasoning over graph relationships  
 - Depends on dataset quality  
@@ -184,7 +184,7 @@ Supports real-time query processing with hybrid retrieval and LLM-based response
 
 ---
 
-## 🔮 Future Scope
+## Future Scope
 
 - Agent-based retrieval workflows  
 - Deeper graph reasoning integration  
